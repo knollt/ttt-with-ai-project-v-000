@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
     [2,4,6]
   ]
 
-  def initialize (player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
+  def initialize (player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"), board = Board.new )
     @player_1 = player_1
     @player_2 = player_2
     @board = board
@@ -61,7 +61,7 @@ WIN_COMBINATIONS = [
       board.display
     else
       puts "That is an invalid move."
-      puts = "Please enter number 1-9:"  
+      puts = "Please enter number 1-9:"
       board.display
       turn
     end
