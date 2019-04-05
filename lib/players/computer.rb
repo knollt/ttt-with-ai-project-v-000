@@ -1,4 +1,4 @@
-module Players
+
   class Player::Computer < Player
     attr_accessor :board
 
