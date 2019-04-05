@@ -1,6 +1,6 @@
 require 'pry'
 
-module Players
+
   class Player::Human < Player
 
     def move(board, timer=0)
