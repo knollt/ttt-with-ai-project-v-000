@@ -1,5 +1,5 @@
 module Players
-  class Player::Computer < Player
+  class Players::Computer < Player
     # attr_accessor :board
     #
     # WIN_COMBINATIONS = [
