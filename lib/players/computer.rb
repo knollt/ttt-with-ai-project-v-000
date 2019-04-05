@@ -17,9 +17,9 @@ module Players
 
     def move(board)
       if board.cells[4] == ' '
-        '1'
+        '5'
       elsif board.cells[0] == ' '
-        '3'
+        '1'
       elsif board.cells[2] == ' '
         '3'
       elsif board.cells[6] == ' '
