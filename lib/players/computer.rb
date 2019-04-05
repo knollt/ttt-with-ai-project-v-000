@@ -1,5 +1,5 @@
 module Players
-  class Computer < Player
+  class Player::Computer < Player
 
     def move(board)
       if board.cells[4] == ' '
@@ -21,7 +21,7 @@ module Players
       elsif board.cells[7] == ' '
         '8'
       end
-    end  
+    end
   end
 
 end
